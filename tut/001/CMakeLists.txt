@@ -1,6 +1,6 @@
+cmake_minimum_required (VERSION 3.18)
 
 project(hello_world)
-cmake_minimum_required (VERSION 3.18)
 
 add_executable(${PROJECT_NAME} main.cpp)
 enable_testing()
