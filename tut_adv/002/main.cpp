@@ -9,10 +9,6 @@
 
 std::size_t static constexpr N_DOUBLES = 1e8;
 
-double memory_consumption(){
-    return N_DOUBLES * 3 * sizeof(double) / 1e9;
-}
-
 auto now_in_milliseconds(){
     return std::chrono::high_resolution_clock::now();
 }

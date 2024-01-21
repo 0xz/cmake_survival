@@ -1,5 +1,5 @@
-project(fetch_tpp)
 cmake_minimum_required (VERSION 3.18)
+project(fetch_tpp)
 
 set(CMAKE_BUILD_TYPE "Debug")
 set(PROJECT_DIR ${CMAKE_CURRENT_SOURCE_DIR})

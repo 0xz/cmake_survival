@@ -1,5 +1,5 @@
-project(hello_library)
 cmake_minimum_required (VERSION 3.18)
+project(hello_library)
 
 option(BUILD_RELEASE "Build for release" OFF)
 
