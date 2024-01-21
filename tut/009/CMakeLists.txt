@@ -11,7 +11,7 @@ add_test(NAME ${PROJECT_NAME} COMMAND ./${PROJECT_NAME} WORKING_DIRECTORY ${CMAK
 include(FetchContent)
 
 # override default settings to download inside build directory, which is silly for development
-set(FETCHCONTENT_BASE_DIR ${PROJECT_DIR}/tpp)
+set(FETCHCONTENT_BASE_DIR ${PROJECT_DIR}/tpp/cppdict)
 FetchContent_Declare(
     cppdict
     GIT_REPOSITORY https://github.com/LaboratoryOfPlasmaPhysics/cppdict

@@ -1,0 +1,95 @@
+Sun 21 Jan 2024 16:01:16 CET
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/p/git/cmake_survival/tut_adv/002/build
+/usr/bin/cmake -S/home/p/git/cmake_survival/tut_adv/002 -B/home/p/git/cmake_survival/tut_adv/002/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles /home/p/git/cmake_survival/tut_adv/002/build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimizations.dir/build.make CMakeFiles/optimizations.dir/depend
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+cd /home/p/git/cmake_survival/tut_adv/002/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles/optimizations.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimizations.dir/build.make CMakeFiles/optimizations.dir/build
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[  8%] Building CXX object CMakeFiles/optimizations.dir/main.cpp.o
+/usr/bin/c++    -MD -MT CMakeFiles/optimizations.dir/main.cpp.o -MF CMakeFiles/optimizations.dir/main.cpp.o.d -o CMakeFiles/optimizations.dir/main.cpp.o -c /home/p/git/cmake_survival/tut_adv/002/main.cpp
+[ 16%] Linking CXX executable optimizations
+/usr/bin/cmake -E cmake_link_script CMakeFiles/optimizations.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/optimizations.dir/main.cpp.o -o optimizations 
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 16%] Built target optimizations
+make  -f CMakeFiles/optimize_O0.dir/build.make CMakeFiles/optimize_O0.dir/depend
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+cd /home/p/git/cmake_survival/tut_adv/002/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles/optimize_O0.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimize_O0.dir/build.make CMakeFiles/optimize_O0.dir/build
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 25%] Building CXX object CMakeFiles/optimize_O0.dir/main.cpp.o
+/usr/bin/c++   -O0 -g3 -fopt-info-vec -MD -MT CMakeFiles/optimize_O0.dir/main.cpp.o -MF CMakeFiles/optimize_O0.dir/main.cpp.o.d -o CMakeFiles/optimize_O0.dir/main.cpp.o -c /home/p/git/cmake_survival/tut_adv/002/main.cpp
+[ 33%] Linking CXX executable optimize_O0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/optimize_O0.dir/link.txt --verbose=1
+/usr/bin/c++ -O0 -g3 CMakeFiles/optimize_O0.dir/main.cpp.o -o optimize_O0 
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 33%] Built target optimize_O0
+make  -f CMakeFiles/optimize_O1.dir/build.make CMakeFiles/optimize_O1.dir/depend
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+cd /home/p/git/cmake_survival/tut_adv/002/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles/optimize_O1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimize_O1.dir/build.make CMakeFiles/optimize_O1.dir/build
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 41%] Building CXX object CMakeFiles/optimize_O1.dir/main.cpp.o
+/usr/bin/c++   -O1 -fopt-info-vec -MD -MT CMakeFiles/optimize_O1.dir/main.cpp.o -MF CMakeFiles/optimize_O1.dir/main.cpp.o.d -o CMakeFiles/optimize_O1.dir/main.cpp.o -c /home/p/git/cmake_survival/tut_adv/002/main.cpp
+[ 50%] Linking CXX executable optimize_O1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/optimize_O1.dir/link.txt --verbose=1
+/usr/bin/c++ -O1 CMakeFiles/optimize_O1.dir/main.cpp.o -o optimize_O1 
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 50%] Built target optimize_O1
+make  -f CMakeFiles/optimize_O2.dir/build.make CMakeFiles/optimize_O2.dir/depend
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+cd /home/p/git/cmake_survival/tut_adv/002/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles/optimize_O2.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimize_O2.dir/build.make CMakeFiles/optimize_O2.dir/build
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 58%] Building CXX object CMakeFiles/optimize_O2.dir/main.cpp.o
+/usr/bin/c++   -O2 -fopt-info-vec -MD -MT CMakeFiles/optimize_O2.dir/main.cpp.o -MF CMakeFiles/optimize_O2.dir/main.cpp.o.d -o CMakeFiles/optimize_O2.dir/main.cpp.o -c /home/p/git/cmake_survival/tut_adv/002/main.cpp
+[ 66%] Linking CXX executable optimize_O2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/optimize_O2.dir/link.txt --verbose=1
+/usr/bin/c++ -O2 CMakeFiles/optimize_O2.dir/main.cpp.o -o optimize_O2 
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 66%] Built target optimize_O2
+make  -f CMakeFiles/optimize_O3.dir/build.make CMakeFiles/optimize_O3.dir/depend
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+cd /home/p/git/cmake_survival/tut_adv/002/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles/optimize_O3.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimize_O3.dir/build.make CMakeFiles/optimize_O3.dir/build
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 75%] Building CXX object CMakeFiles/optimize_O3.dir/main.cpp.o
+/usr/bin/c++   -O3 -fopt-info-vec -MD -MT CMakeFiles/optimize_O3.dir/main.cpp.o -MF CMakeFiles/optimize_O3.dir/main.cpp.o.d -o CMakeFiles/optimize_O3.dir/main.cpp.o -c /home/p/git/cmake_survival/tut_adv/002/main.cpp
+[ 83%] Linking CXX executable optimize_O3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/optimize_O3.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 CMakeFiles/optimize_O3.dir/main.cpp.o -o optimize_O3 
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 83%] Built target optimize_O3
+make  -f CMakeFiles/optimize_O3_native.dir/build.make CMakeFiles/optimize_O3_native.dir/depend
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+cd /home/p/git/cmake_survival/tut_adv/002/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002 /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles/optimize_O3_native.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+make  -f CMakeFiles/optimize_O3_native.dir/build.make CMakeFiles/optimize_O3_native.dir/build
+make[2]: Entering directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[ 91%] Building CXX object CMakeFiles/optimize_O3_native.dir/main.cpp.o
+/usr/bin/c++   -O3 -march=native -mtune=native -fopt-info-vec -MD -MT CMakeFiles/optimize_O3_native.dir/main.cpp.o -MF CMakeFiles/optimize_O3_native.dir/main.cpp.o.d -o CMakeFiles/optimize_O3_native.dir/main.cpp.o -c /home/p/git/cmake_survival/tut_adv/002/main.cpp
+[100%] Linking CXX executable optimize_O3_native
+/usr/bin/cmake -E cmake_link_script CMakeFiles/optimize_O3_native.dir/link.txt --verbose=1
+/usr/bin/c++ -O0 -march=native -mtune=native CMakeFiles/optimize_O3_native.dir/main.cpp.o -o optimize_O3_native 
+make[2]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+[100%] Built target optimize_O3_native
+make[1]: Leaving directory '/home/p/git/cmake_survival/tut_adv/002/build'
+/usr/bin/cmake -E cmake_progress_start /home/p/git/cmake_survival/tut_adv/002/build/CMakeFiles 0
+Sun 21 Jan 2024 16:01:21 CET
