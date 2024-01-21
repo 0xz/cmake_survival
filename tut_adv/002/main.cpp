@@ -29,6 +29,8 @@ int main(int argc, char* argv[]){
     for(std::size_t i = 0; i < N_DOUBLES; ++i)
         d2[i] = d0[i] + d1[i];
 
+    std::cout << "runtime for " << argv[0] << " is: " << total_runtime(start_time) << " microseconds" << std::endl;
+
     for(auto const& d : d2)
         if(d != 21)
             throw std::runtime_error("FAIL! "  + std::to_string(d));
