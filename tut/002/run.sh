@@ -2,5 +2,8 @@
 set -e
 CWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" && cd $CWD
 
-rm -rf build && mkdir build && cd build && cmake .. -G Ninja && ninja -v
+rm -rf build
+cmake -B build
+cd build
+cmake --build .
 ctest -V
