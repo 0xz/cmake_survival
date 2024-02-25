@@ -32,7 +32,7 @@ if so, the output might look like
 #define __AVX2__ 1
 ```
 
-Meaning your system should be able to run AVX 2 instrunctions
+Meaning your system should be able to run AVX 2 instructions
 as opposed to perhaps just SSE2 instructions
 https://en.wikipedia.org/wiki/SSE2
 
