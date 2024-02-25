@@ -5,5 +5,5 @@ CWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" && cd $CWD/.. && CWD=$PW
 DIRS=(build CMakeFiles)
 for D in ${DIRS[@]}; do find tut* -type d -name $D | xargs rm -rf; done
 
-FILES=(CMakeCache.txt)
+FILES=(CMakeCache.txt .run.*)
 for F in ${FILES[@]}; do find tut* -type f -name $F | xargs rm -rf; done
