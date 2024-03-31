@@ -11,9 +11,9 @@ include_directories(${PROJECT_DIR}/inc) # global headers
 add_subdirectory(src)
 
 add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME} project_library)
+target_link_libraries(${PROJECT_NAME} PRIVATE project_library)
 
 enable_testing()
-add_test(NAME ${PROJECT_NAME} COMMAND ./${PROJECT_NAME} WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR})
+add_test(NAME ${PROJECT_NAME} COMMAND ./${PROJECT_NAME})
 
 

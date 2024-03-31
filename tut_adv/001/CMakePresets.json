@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 19,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "description": "Base preset for library developers",
+      "binaryDir": "${sourceDir}/build"
+    },
+    {
+      "name": "dev-werror",
+      "description": "Linux preset for library developers",
+      "hidden": false,
+      "inherits": "default",
+      "cacheVariables": {
+        "CMAKE_CXX_FLAGS": "-Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wcast-align -Wcast-qual -Wnull-dereference -Woverloaded-virtual -Wformat=2 -Werror"
+      }
+    }
+  ]
+}

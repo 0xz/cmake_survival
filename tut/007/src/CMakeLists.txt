@@ -1,7 +1,7 @@
+cmake_minimum_required (VERSION 3.18)
+
 project(project_library)
 
 
-set(SOURCE_CPP src.cpp)
-
-add_library(${PROJECT_NAME} STATIC ${SOURCE_CPP} ${SOURCE_INC})
+add_library(${PROJECT_NAME} STATIC src.cpp)
 
