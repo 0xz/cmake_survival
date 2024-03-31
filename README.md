@@ -15,17 +15,12 @@ then click -> "Open Editor" for VScode type editor
 
 ### Debian / Apt Setup
 
+```bash
 sudo apt-get install cmake cmake-curses-gui g++ ninja-build make ccache
-
+```
 
 ### Appendix:
 
 Random number reference: https://xkcd.com/221
 
 
-
-
-# misc
-
-# modern cmake
-https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1
