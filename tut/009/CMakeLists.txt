@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.18)
+cmake_minimum_required (VERSION 3.22)
 project(fetch_tpp CXX)
 
 if(NOT CMAKE_BUILD_TYPE)
